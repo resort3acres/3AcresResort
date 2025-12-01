@@ -8,6 +8,7 @@ import RoomsPage from './pages/RoomsPage'
 import RoomsImages from './pages/RoomsImages'
 import Facilities from './pages/Facilities'
 import AnimitiesDetails from './pages/AnimitiesDetails'
+import AppSeo from './components/AppSeo'
 
 const appRouter = createBrowserRouter([
   {
@@ -22,7 +23,7 @@ const appRouter = createBrowserRouter([
         path: '/rooms',
         element: <RoomsPage />
       },
-       {
+      {
         path: '/rooms/details/:roomKey',
         element: <RoomsImages />
       },
@@ -30,7 +31,7 @@ const appRouter = createBrowserRouter([
         path: '/events',
         element: <Events />
       },
-       {
+      {
         path: '/animitiesDetails/:slug',
         element: <AnimitiesDetails />
       },
@@ -41,8 +42,10 @@ const appRouter = createBrowserRouter([
 
 const App = () => {
   return (
-
-    <RouterProvider router={appRouter} />
+    <>
+      <AppSeo />
+      <RouterProvider router={appRouter} />
+    </>
 
   )
 }

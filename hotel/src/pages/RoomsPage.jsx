@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import roomPage from '/roomsPage.webp'
 import RoomMiniDetails from '../components/RoomMiniDetails'
 
@@ -120,7 +120,39 @@ const RoomsPage = () => {
 
     ]
 
-   
+
+    //seo optimization
+    useEffect(() => {
+        // Page title
+        document.title = "Rooms & Suites - 3 Acres Resort | Luxury Stays";
+
+        // Meta description
+        const description = "Explore our luxurious rooms at 3 Acres Resort. Perfect for family vacations and peaceful retreats with modern amenities and exceptional service.";
+        let metaDesc = document.querySelector('meta[name="description"]');
+
+        if (metaDesc) {
+            metaDesc.setAttribute('content', description);
+        } else {
+            metaDesc = document.createElement('meta');
+            metaDesc.name = 'description';
+            metaDesc.content = description;
+            document.head.appendChild(metaDesc);
+        }
+
+        // Optional: Meta keywords
+        const keywords = "3 Acres Resort, luxury rooms, hotel, resort, family vacation, comfortable stay, best resort in dehradun,";
+        let metaKeywords = document.querySelector('meta[name="keywords"]');
+
+        if (!metaKeywords) {
+            metaKeywords = document.createElement('meta');
+            metaKeywords.name = 'keywords';
+            metaKeywords.content = keywords;
+            document.head.appendChild(metaKeywords);
+        }
+
+    }, [])
+
+
     return (
         <div className='flex flex-col w-full justify-center'>
             <div className="relative w-full h-[50vh] sm:h-[70vh] md:h-[80vh] lg:h-screen overflow-hidden">
@@ -172,10 +204,10 @@ const RoomsPage = () => {
                         li5={room.li5}
                         li6={room.li6}
                         extra={room.extra}
-                        // price1={room.price1}
-                        // price2={room.price2}
-                        // price3={room.price3}
-                        // price4={room.price4}
+                    // price1={room.price1}
+                    // price2={room.price2}
+                    // price3={room.price3}
+                    // price4={room.price4}
                     />
                 ))}
             </div>
