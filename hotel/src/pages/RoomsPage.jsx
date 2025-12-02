@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import roomPage from '/roomsPage.webp'
+
 import RoomMiniDetails from '../components/RoomMiniDetails'
 
 
