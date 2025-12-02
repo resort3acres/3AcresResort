@@ -1,10 +1,14 @@
 import React from 'react'
 
-const ReviewCard = ({ name, description, role }) => {
+const ReviewCard = ({ name, description, role, img }) => {
     return (
-        <div className="max-w-md mx-auto p-8 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+        <div className=" mt-8 relative max-w-md mx-auto p-8 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+
+            <div className=' w-full flex justify-center absolute -top-8 '>
+                <img src={img} alt="" className='w-32 h-32 rounded-full object-cover' />
+            </div>
             {/* Quote icon */}
-            <div className="mb-6 text-blue-100">
+            <div className="mb-6 mt-2 text-blue-100">
                 <svg className="w-10 h-10" fill="currentColor" viewBox="0 0 32 32">
                     <path d="M10 8c-3.3 0-6 2.7-6 6v10h10V14H6c0-2.2 1.8-4 4-4zm14 0c-3.3 0-6 2.7-6 6v10h10V14h-8c0-2.2 1.8-4 4-4z" />
                 </svg>

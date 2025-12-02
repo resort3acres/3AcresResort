@@ -1,10 +1,7 @@
 import React from 'react'
 import { IoIosArrowRoundForward } from "react-icons/io"
 import RoomCard from '../components/RoomCard'
-import flamingo from '/flamingo.avif'
-import kingfisher from '/kingfisher.avif'
-import monal from '/monal.jpg'
-import dove from '/dove.jpg'
+
 import { useNavigate } from 'react-router-dom'
 const Rooms = () => {
 

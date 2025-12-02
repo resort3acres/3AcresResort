@@ -1,5 +1,4 @@
 import React from 'react';
-import aboutImage from '/outside.avif';
 import { IoIosArrowRoundForward } from "react-icons/io";
 
 const About = () => {

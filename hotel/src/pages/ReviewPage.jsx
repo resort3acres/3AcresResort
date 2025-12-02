@@ -7,12 +7,21 @@ const [currentIndex, setCurrentIndex] = useState(0)
 const [itemsPerPage, setItemsPerPage] = useState(3)
 
 const customerReviews = [
-    { name: "Dr. Himanshu Aeran", description: "I have always chosen 3 Acres Resort to celebrate my family's special occasions. The resort consistently delivers exceptional hospitality, with a team that is attentive and genuinely caring. Their food is consistently of the highest quality, making every event memorable and enjoyable." },
-    { name: "Suresh Kumar", description: "Wonderful experience! The staff was very professional and the facilities were top-notch. Would definitely recommend to friends and family." },
-    { name: "Priya Sharma", description: "Beautiful resort with amazing ambiance. Perfect for weekend getaways. The food was delicious and rooms were very comfortable." },
-    { name: "Rajesh Patel", description: "Exceptional service throughout our stay. The attention to detail was impressive. Will definitely visit again!" },
-    { name: "Anjali Mehta", description: "A perfect blend of luxury and nature. The spa services were rejuvenating and the staff went above and beyond." },
-    { name: "Vikram Singh", description: "Great for corporate retreats. The conference facilities were excellent and the team helped us organize everything smoothly." }
+    { 
+        name: "Dr. Himanshu Aeran", 
+        description: "I have always chosen 3 Acres Resort to celebrate my family's special occasions. The resort consistently delivers exceptional hospitality, with a team that is attentive and genuinely caring. Their food is consistently of the highest quality, making every event memorable and enjoyable.",
+        img:"https://res.cloudinary.com/dynfbapnz/image/upload/v1764662994/DSC_0339_mew6gj.jpg" 
+    },
+        { 
+        name: "Dr. Himanshu Aeran", 
+        description: "I have always chosen 3 Acres Resort to celebrate my family's special occasions. The resort consistently delivers exceptional hospitality, with a team that is attentive and genuinely caring. Their food is consistently of the highest quality, making every event memorable and enjoyable.",
+        img:"https://res.cloudinary.com/dynfbapnz/image/upload/v1764662994/DSC_0339_mew6gj.jpg" 
+    },
+        { 
+        name: "Dr. Himanshu Aeran", 
+        description: "I have always chosen 3 Acres Resort to celebrate my family's special occasions. The resort consistently delivers exceptional hospitality, with a team that is attentive and genuinely caring. Their food is consistently of the highest quality, making every event memorable and enjoyable.",
+        img:"https://res.cloudinary.com/dynfbapnz/image/upload/v1764662994/DSC_0339_mew6gj.jpg" 
+    },
 ]
 
 // Update itemsPerPage based on screen width
@@ -42,7 +51,7 @@ const visibleReviews = customerReviews.slice(currentIndex, currentIndex + itemsP
 
 return (
     <div className="p-4 md:p-8 max-w-7xl mx-auto">
-        <h1 className="text-2xl md:text-3xl font-bold text-center mb-8">What Our Customers Say</h1>
+        <h1 className="text-2xl md:text-3xl font-bold text-center mb-8 text-gray-700 ">What Our Customers Say</h1>
 
         <div className="relative">
             {/* Navigation Buttons */}
@@ -67,6 +76,7 @@ return (
                 {visibleReviews.map((review, index) => (
                     <ReviewCard
                         key={index}
+                        img={review.img}
                         name={review.name}
                         description={review.description}
                     />

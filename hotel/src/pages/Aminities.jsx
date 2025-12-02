@@ -1,9 +1,6 @@
 import React from 'react'
 import AmenitiesCard from '../components/AmenitiesCard'
-import dinner from '/dinner.JPG'
-import wedding from '/wedding.jpeg'
-import yoga from '/yoga.JPG'
-import playing from '/playing.JPG'
+
 import { useNavigate } from 'react-router-dom'
 
 const Aminities = () => {

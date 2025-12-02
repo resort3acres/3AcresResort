@@ -1,6 +1,6 @@
 import React from 'react'
 import { IoIosArrowRoundForward } from 'react-icons/io'
-import interior from '/interior.JPG'
+
 
 const Interior = () => {
     return (

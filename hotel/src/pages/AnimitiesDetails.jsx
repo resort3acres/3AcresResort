@@ -10,11 +10,15 @@ const amenitiesData = {
         "Every dining moment is enhanced by panoramic views of lush greenery, the soothing sounds of nature, and an ambiance designed to elevate both the palate and the spirit."
     ],
     images: [
-        "https://res.cloudinary.com/dwvf9a857/image/upload/v1764528210/DSC_0712-min_n14gqh.jpg",
-        "https://res.cloudinary.com/dwvf9a857/image/upload/v1764528210/DSC_0713-min_fqhwuh.jpg",
-        "https://res.cloudinary.com/dwvf9a857/image/upload/v1764528209/WhatsApp_Image_2025-03-01_at_3.56.20_PM_12_itx029.jpg",
-        "https://res.cloudinary.com/dwvf9a857/image/upload/v1764528209/WhatsApp_Image_2025-03-01_at_3.56.20_PM_3_iazgty.jpg",
-        "https://res.cloudinary.com/dwvf9a857/image/upload/v1764528208/WhatsApp_Image_2025-03-01_at_3.56.20_PM_npj4q7.jpg",
+        "https://res.cloudinary.com/dynfbapnz/image/upload/v1764662387/DSC_0715-min_qd58f9.jpg",
+        "https://res.cloudinary.com/dynfbapnz/image/upload/v1764662386/DSC_0713-min_leuwas.jpg",
+        "https://res.cloudinary.com/dynfbapnz/image/upload/v1764662385/DSC_0712-min_zixesf.jpg",
+        "https://res.cloudinary.com/dynfbapnz/image/upload/v1764662380/WhatsApp_Image_2025-03-01_at_3.56.20_PM_2_jnxdh8.jpg",
+        "https://res.cloudinary.com/dynfbapnz/image/upload/v1764662380/WhatsApp_Image_2025-03-01_at_3.56.20_PM_8_trb1ap.jpg",
+        "https://res.cloudinary.com/dynfbapnz/image/upload/v1764662378/WhatsApp_Image_2025-03-01_at_3.56.20_PM_4_zkysxe.jpg",
+        "https://res.cloudinary.com/dynfbapnz/image/upload/v1764662373/WhatsApp_Image_2025-03-01_at_3.56.20_PM_12_cjbdue.jpg",
+        "https://res.cloudinary.com/dynfbapnz/image/upload/v1764662375/WhatsApp_Image_2025-03-01_at_3.56.20_PM_11_dhp0la.jpg",
+        "https://res.cloudinary.com/dynfbapnz/image/upload/v1764662376/WhatsApp_Image_2025-03-01_at_3.56.20_PM_hq01n9.jpg"
     ]
 },
 
@@ -32,12 +36,12 @@ const amenitiesData = {
             "Whether you're planning a destination wedding, a social gathering, or a corporate retreat, our dedicated team offers personalized arrangements tailored to your unique vision. Celebrate your most precious moments in a place where nature meets luxury."
         ],
         images: [
-            "https://res.cloudinary.com/dwvf9a857/image/upload/v1764527281/WhatsApp_Image_2025-11-12_at_11.15.46_AM_ipidg5.jpg",
-            "https://res.cloudinary.com/dwvf9a857/image/upload/v1764527279/WhatsApp_Image_2025-11-13_at_11.08.40_PM_idgo2u.jpg",
-            "https://res.cloudinary.com/dwvf9a857/image/upload/v1764529981/IMG_5184_pm0wlz.jpg",
-            "https://res.cloudinary.com/dwvf9a857/image/upload/v1764529981/IMG_5470_obbksf.jpg",
-            "https://res.cloudinary.com/dwvf9a857/image/upload/v1764529981/IMG_5568_wr51yz.jpg",
-            "https://res.cloudinary.com/dwvf9a857/image/upload/v1764529981/IMG_5302_zq3yvo.jpg"
+            "https://res.cloudinary.com/dynfbapnz/image/upload/v1764661832/WhatsApp_Image_2025-11-12_at_11.15.46_AM_ykyscu.jpg",
+            "https://res.cloudinary.com/dynfbapnz/image/upload/v1764661797/WhatsApp_Image_2025-11-13_at_11.08.40_PM_inrvae.jpg",
+            "https://res.cloudinary.com/dynfbapnz/image/upload/v1764662021/stage_vbdy4j.jpg",
+            "https://res.cloudinary.com/dynfbapnz/image/upload/v1764662021/stage2_sozldl.jpg",
+           "https://res.cloudinary.com/dynfbapnz/image/upload/v1764662022/table_fxcuja.jpg",
+           "https://res.cloudinary.com/dynfbapnz/image/upload/v1764662022/bride1_vvhvi8.jpg",
         ]
     },
 
@@ -52,12 +56,12 @@ const amenitiesData = {
         "Set against the backdrop of pristine natural surroundings and fresh mountain air (average AQI 50), every activity is designed to refresh your mind, invigorate your body, and create lasting memories."
     ],
     images: [
-        "https://res.cloudinary.com/dwvf9a857/image/upload/v1764528939/Activity_area_vbp73t.jpg",
-        "https://res.cloudinary.com/dwvf9a857/image/upload/v1764527279/6321104812535562159_jl3qd1.jpg",
-        "https://res.cloudinary.com/dwvf9a857/image/upload/v1764527278/6321104812535562255_axeqsi.jpg",
-        "https://res.cloudinary.com/dwvf9a857/image/upload/v1764528939/DSC02466_bu6uwn.jpg",
-        "https://res.cloudinary.com/dwvf9a857/image/upload/v1764527277/6321104812535562263_ehdnuw.jpg",
-        "https://res.cloudinary.com/dwvf9a857/image/upload/v1764527279/WhatsApp_Image_2024-12-21_at_5.42.53_PM_kt1j6y.jpg",
+       "https://res.cloudinary.com/dynfbapnz/image/upload/v1764662737/out1_idvppe.jpg",
+       "https://res.cloudinary.com/dynfbapnz/image/upload/v1764662612/DSC_1041_lxcxn3.jpg",
+       "https://res.cloudinary.com/dynfbapnz/image/upload/v1764662730/out2_aik8pz.jpg",
+       "https://res.cloudinary.com/dynfbapnz/image/upload/v1764662729/out3_clnnuv.jpg",
+       "https://res.cloudinary.com/dynfbapnz/image/upload/v1764662754/out5_bfdiwk.jpg",
+       "https://res.cloudinary.com/dynfbapnz/image/upload/v1764662732/out4_x0mohq.jpg",
     ]
 },
 
@@ -71,11 +75,12 @@ const amenitiesData = {
         "Whether you're seeking relaxation, stress relief, or a holistic workout, our expert instructors ensure a personalized and refreshing yoga experience that leaves you feeling revitalized and energized."
     ],
         images: [
-            "https://res.cloudinary.com/dwvf9a857/image/upload/v1764532408/DSC_0319_zgi5q3.jpg",
-            "https://res.cloudinary.com/dwvf9a857/image/upload/v1764532400/DSC_0303_fvvbkn.jpg",
-            "https://res.cloudinary.com/dwvf9a857/image/upload/v1764532415/DSC_0333_bf0m2n.jpg",
-            "https://res.cloudinary.com/dwvf9a857/image/upload/v1764532415/DSC_0336_tdidxd.jpg",
-            "https://res.cloudinary.com/dwvf9a857/image/upload/v1764532417/DSC_0338_tuqs5d.jpg",
+            "https://res.cloudinary.com/dynfbapnz/image/upload/v1764662932/DSC_0319_fexmfd.jpg",
+            "https://res.cloudinary.com/dynfbapnz/image/upload/v1764662915/DSC_0309_dlcqu5.jpg",
+            "https://res.cloudinary.com/dynfbapnz/image/upload/v1764662897/DSC_0303_sknynn.jpg",
+            "https://res.cloudinary.com/dynfbapnz/image/upload/v1764662959/DSC_0326_k0txuv.jpg",
+            "https://res.cloudinary.com/dynfbapnz/image/upload/v1764662994/DSC_0339_mew6gj.jpg",
+            "https://res.cloudinary.com/dynfbapnz/image/upload/v1764662990/DSC_0333_miweai.jpg",
         ]
     },
 
