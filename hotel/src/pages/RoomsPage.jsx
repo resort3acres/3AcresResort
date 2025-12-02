@@ -9,7 +9,7 @@ const RoomsPage = () => {
         {
             keyName: "flamingo",
             roomType: "Flamingo Room",
-            img: "/FLAMINGO.JPG",
+            img: "https://res.cloudinary.com/dynfbapnz/image/upload/v1764656851/FLAMINGO1_ylxaqx.jpg",
             space: "143 sq.ft(13 sq.mt)",
             bed: "1 King Bed",
             li1: "Iron/Ironing Board",
@@ -27,7 +27,7 @@ const RoomsPage = () => {
         {
             keyName: "quail",
             roomType: "Quail",
-            img: "/quail1.JPG",
+            img: "https://res.cloudinary.com/dynfbapnz/image/upload/v1764656851/quail1_hcinmn.jpg",
             space: "148 sq.ft (14 sq.mt)",
             bed: "1 King Bed",
             li1: "Heater - Additional charges",
@@ -45,7 +45,7 @@ const RoomsPage = () => {
         {
             keyName: "emu",
             roomType: "Emu",
-            img: "/EMU.JPG",
+            img: "https://res.cloudinary.com/dynfbapnz/image/upload/v1764656856/EMU2_wnct2i.jpg",
             space: "168 sq.ft (16 sq.mt)",
             bed: "1 King Bed",
             li1: "Bathroom",
@@ -63,7 +63,7 @@ const RoomsPage = () => {
         {
             keyName: "skylark",
             roomType: "Skylark (Twin Room)",
-            img: "/skylark1.JPG",
+            img: "https://res.cloudinary.com/dynfbapnz/image/upload/v1764656854/skylark3_y4mly5.jpg",
             space: "180 sq.ft (17 sq.mt)",
             GardenView: "Garden View",
             bed: "1 King Bed",
@@ -82,7 +82,7 @@ const RoomsPage = () => {
         {
             keyName: "monal",
             roomType: "Monal (Twin Room)",
-            img: "/monal1.JPG",
+            img: "https://res.cloudinary.com/dynfbapnz/image/upload/v1764656850/monal_vc0fxt.jpg",
             space: "120 sq.ft (11 sq.mt)",
             GardenView: "Garden View",
             bed: "1 King Bed(s)",
@@ -101,7 +101,7 @@ const RoomsPage = () => {
         {
             keyName: "dove",
             roomType: "Dove",
-            img: "/dove.jpg",
+            img: "https://res.cloudinary.com/dynfbapnz/image/upload/v1764656855/DOVE1_muqc6u.jpg",
             space: "384 sq.ft (36 sq.mt)",
             GardenView: "Garden View",
             bed: "1 King Bed(s)",
@@ -158,7 +158,7 @@ const RoomsPage = () => {
             <div className="relative w-full h-[50vh] sm:h-[70vh] md:h-[80vh] lg:h-screen overflow-hidden">
 
                 <img
-                    src={roomPage}
+                    src="https://res.cloudinary.com/dynfbapnz/image/upload/v1764656851/roomsPage_ali1bb.webp"
                     alt="Rooms Page"
                     className="w-full h-full object-cover"
                 />
@@ -204,10 +204,7 @@ const RoomsPage = () => {
                         li5={room.li5}
                         li6={room.li6}
                         extra={room.extra}
-                    // price1={room.price1}
-                    // price2={room.price2}
-                    // price3={room.price3}
-                    // price4={room.price4}
+                   
                     />
                 ))}
             </div>

@@ -53,10 +53,10 @@ const Rooms = () => {
 
       {/* --- ROOM CARDS GRID --- */}
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-12'>
-        <RoomCard roomType="Flamingo" img={flamingo} />
-        <RoomCard roomType="Kingfisher"  img={kingfisher} />
-        <RoomCard roomType="Monal (Twin Room)"  img={monal} />
-        <RoomCard roomType="Dove"  img={dove} />
+        <RoomCard roomType="Flamingo" img="https://res.cloudinary.com/dynfbapnz/image/upload/v1764656851/FLAMINGO1_ylxaqx.jpg" />
+        <RoomCard roomType="Kingfisher" img="https://res.cloudinary.com/dynfbapnz/image/upload/v1764656856/kingfisher_pqh3sr.avif" />
+        <RoomCard roomType="Monal (Twin Room)" img="https://res.cloudinary.com/dynfbapnz/image/upload/v1764656850/monal1_u31zoc.jpg" />
+        <RoomCard roomType="Dove" img="https://res.cloudinary.com/dynfbapnz/image/upload/v1764656856/DOVE2_v9qzzt.jpg" />
       </div>
 
     </div>

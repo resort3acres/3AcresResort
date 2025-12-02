@@ -26,12 +26,7 @@ const About = () => {
           </h1>
 
         </div>
-        {/* <p className="text-lg leading-relaxed text-gray-600">
-          Welcome to <span className="text-[#fc8b0a] font-semibold">3Acres</span>, where luxury meets serenity.
-          Our mission is to offer an unforgettable stay with modern amenities, royal hospitality,
-          and personalized comfort. Nestled amidst nature, our property provides a perfect blend
-          of elegance and peace for travelers seeking a refined experience.
-        </p> */}
+       
 
         <p className="text-lg leading-relaxed text-gray-600">
           Welcome to  <span className="text-[#fc8b0a] font-semibold">3Acres Resort – A Hidden Gem in Dehradun</span> <br />
@@ -39,18 +34,6 @@ const About = () => {
           Reconnect with nature, relax in thoughtfully designed spaces, and create unforgettable memories at one of Dehradun's most loved offbeat destinations.
 
         </p>
-        {/* <p className="text-lg leading-relaxed text-black">
-          From contemporary rooms to exquisite dining and world-class facilities, every corner
-          of 3AcreIn reflects sophistication and warmth. Whether you’re here for leisure or business,
-          we ensure your stay is both memorable and delightful.
-        </p> */}
-        {/* <button
-          className="mt-4 px-6 py-2 border border-black text-gray-600 font-semibold rounded-3xl shadow-lg 
-             flex items-center gap-1 transition-all duration-300 cursor-pointer "
-        >
-          More About <IoIosArrowRoundForward size={32} />
-        </button> */}
-
         <div className='flex w-full gap-8 text-gray-600' style={{ fontFamily: "Times New Roman, serif" }}>
           <div className='space-y-2 flex flex-col items-center'>
             <h1 className='text-5xl'>100%</h1>
@@ -66,7 +49,7 @@ const About = () => {
       {/* Right Image Section */}
       <div className="md:w-1/2 h-[400px] mt-12 animate-fadeIn delay-200">
         <img
-          src="https://res.cloudinary.com/dwvf9a857/image/upload/v1763534866/outside_ewtdir.avif"
+          src="https://res.cloudinary.com/dynfbapnz/image/upload/v1764656853/outside_vbhpvp.avif"
           alt="About 3AcreIn"
           className="rounded-2xl shadow-2xl w-full max-w-lg h-full mx-auto hover:scale-105 transition-transform duration-500 object-cover"
         />

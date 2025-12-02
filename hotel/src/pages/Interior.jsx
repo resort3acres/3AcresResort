@@ -77,7 +77,7 @@ const Interior = () => {
                 {/* RIGHT IMAGE */}
                 <div className="w-full lg:w-1/2">
                     <img
-                        src={interior}
+                        src="https://res.cloudinary.com/dynfbapnz/image/upload/v1764656853/skylark5_xj94ut.jpg"
                         alt="Interior"
                         className="rounded-lg w-full object-cover"
                     />

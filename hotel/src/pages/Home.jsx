@@ -1,10 +1,6 @@
 
 import React, { useEffect, useState } from 'react'
-import img1 from '/img1.avif'
-import img2 from '/img2.avif'
-import img3 from '/img3.avif'
-import img4 from '/img4.avif'
-import arial1 from '/arial1.JPG'
+
 import { useNavigate } from 'react-router-dom'
 
 const Home = () => {
@@ -15,14 +11,12 @@ const Home = () => {
   }
 
   const image = [
-    "https://res.cloudinary.com/dwvf9a857/image/upload/v1763534855/arial1_cvkr9e.jpg",
-    "https://res.cloudinary.com/dwvf9a857/image/upload/v1763534857/img1_dznuzr.avif",
-    "https://res.cloudinary.com/dwvf9a857/image/upload/v1763534858/img2_tr9kjd.avif",
-    "https://res.cloudinary.com/dwvf9a857/image/upload/v1763534859/img3_g3dv7d.avif",
-    "https://res.cloudinary.com/dwvf9a857/image/upload/v1763534860/img4_mkpdxs.avif"
+    "https://res.cloudinary.com/dynfbapnz/image/upload/v1764656858/arial1_q07tpq.jpg",
+    "https://res.cloudinary.com/dynfbapnz/image/upload/v1764656887/img1_ituyrg.avif",
+    "https://res.cloudinary.com/dynfbapnz/image/upload/v1764656854/img2_y5uyaj.avif",
+    "https://res.cloudinary.com/dynfbapnz/image/upload/v1764656853/outside_vbhpvp.avif",
   ]
 
-  const img = [arial1, img1, img2, img3, img4]
   const [currentIndex, setCurrentIndex] = useState(0)
 
   useEffect(() => {
@@ -77,52 +71,3 @@ const Home = () => {
 }
 
 export default Home
-
-// import React, { useState, useRef } from "react";
-// import { useNavigate } from "react-router-dom";
-
-// const Home = () => {
-//   const navigate = useNavigate();
-//   const handleExploreRooms = () => navigate("/rooms");
-
-//   const [muted, setMuted] = useState(true);
-//   const videoRef = useRef(null);
-
-//   const toggleMute = () => {
-//     setMuted(!muted);
-//     if (videoRef.current) {
-//       videoRef.current.muted = !videoRef.current.muted;
-//     }
-//   };
-
-//   return (
-//     <div className="relative w-full h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-screen overflow-hidden">
-//       <video
-//         ref={videoRef}
-//         autoPlay
-//         muted={muted}
-//         loop
-//         playsInline
-//         className="absolute top-0 left-0 w-full h-full object-cover"
-//       >
-//         <source
-//           src="https://drive.google.com/uc?export=download&id=1pnlA4U8se_EBktoaabVzceozl6X4QrW4"
-//           type="video/mp4"
-//         />
-//       </video>
-
-//       {/* Dark overlay */}
-//       <div className="absolute top-0 left-0 w-full h-full bg-black/40"></div>
-
-//       {/* Mute / Unmute Button */}
-//       <button
-//         onClick={toggleMute}
-//         className="absolute bottom-4 right-4 bg-white/70 text-black px-3 py-2 rounded-full shadow-md text-sm font-semibold hover:bg-white transition"
-//       >
-//         {muted ? "Unmute" : "Mute"}
-//       </button>
-//     </div>
-//   );
-// };
-
-// export default Home;

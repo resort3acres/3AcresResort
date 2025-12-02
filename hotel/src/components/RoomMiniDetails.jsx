@@ -175,8 +175,8 @@ const RoomMiniDetails = ({ keyName,
 
     const [isModelOpen, setIsModelOpen] = useState(false);
 
-    const openModel =()=> setIsModelOpen(true);
-    const closeModel =()=> setIsModelOpen(false);
+    const openModel = () => setIsModelOpen(true);
+    const closeModel = () => setIsModelOpen(false);
     return (
         <div className="w-full border rounded-2xl shadow-md bg-white 
                         p-3 sm:p-4 md:p-6 
@@ -186,20 +186,22 @@ const RoomMiniDetails = ({ keyName,
             <div className="w-1/3 flex flex-col gap-2 sm:gap-3">
 
                 {/* Room Image */}
-                <div className="w-full 
+                <Link to={`/rooms/details/${keyName}`}>
+                    <div className="w-full 
                                 h-32 sm:h-44 md:h-60 
                                 overflow-hidden rounded-lg">
-                    <img
-                        src={img}
-                        alt={roomType}
-                        className="w-full h-full object-cover hover:scale-110 transition duration-500"
-                    />
-                </div>
+                        <img
+                            src={img}
+                            alt={roomType}
+                            className="w-full h-full object-cover hover:scale-110 transition duration-500"
+                        />
+                    </div>
 
-                {/* Room Title */}
-                <h2 className="text-base sm:text-xl md:text-2xl font-semibold text-gray-900">
-                    {roomType}
-                </h2>
+                    {/* Room Title */}
+                    <h2 className="text-base sm:text-xl md:text-2xl font-semibold text-gray-900">
+                        {roomType}
+                    </h2>
+                </Link>
 
                 {/* Key Features */}
                 <ul className="flex flex-wrap gap-1 sm:gap-3 text-gray-700 mt-1 sm:mt-2 text-xs sm:text-sm">

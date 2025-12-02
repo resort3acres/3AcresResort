@@ -29,10 +29,29 @@ const Aminities = () => {
             </div>
 
             <div className='mt-8 cursor-pointer flex flex-col gap-2 sm:gap-4 lg:gap-6'>
-                <AmenitiesCard amenitiesImg={wedding} amenitiesTitle="Wedding Events" amenitiesText="3Acres Resort is a charming destination for weddings, get-togethers, and corporate events." handleClick={()=>hanldeClick("wedding-events")} />
-                <AmenitiesCard amenitiesImg={dinner} amenitiesTitle="Fine Dining Experience" amenitiesText="Indulge in gourmet cuisine prepared, paired with exquisite wines." handleClick={()=>hanldeClick("fine-dining")} />
-                <AmenitiesCard amenitiesImg={playing} amenitiesTitle="Outdoor Activities" amenitiesText="Experience outdoor activities that bring you closer to nature while offering fun and excitement." handleClick={()=>hanldeClick("outdoor-activities")} />
-                <AmenitiesCard amenitiesImg={yoga} amenitiesTitle="Yoga" amenitiesText="Find balance and relaxation with guided yoga sessions designed for all experience levels." handleClick={()=>hanldeClick("yoga")} />
+                <AmenitiesCard
+                    amenitiesImg="https://res.cloudinary.com/dynfbapnz/image/upload/v1764656853/wedding_ize4eh.jpg"
+                    amenitiesTitle="Wedding Events"
+                    amenitiesText="3Acres Resort is a charming destination for weddings, get-togethers, and corporate events."
+                    handleClick={() => hanldeClick("wedding-events")} />
+
+                <AmenitiesCard
+                    amenitiesImg="https://res.cloudinary.com/dynfbapnz/image/upload/v1764658246/dinner_bs75d3.jpg"
+                    amenitiesTitle="Fine Dining Experience"
+                    amenitiesText="Indulge in gourmet cuisine prepared, paired with exquisite wines."
+                    handleClick={() => hanldeClick("fine-dining")}
+                />
+
+                <AmenitiesCard
+                    amenitiesImg="https://res.cloudinary.com/dynfbapnz/image/upload/v1764656852/playing_a3sdtx.jpg"
+                    amenitiesTitle="Outdoor Activities"
+                    amenitiesText="Experience outdoor activities that bring you closer to nature while offering fun and excitement."
+                    handleClick={() => hanldeClick("outdoor-activities")} />
+                <AmenitiesCard
+                    amenitiesImg="https://res.cloudinary.com/dynfbapnz/image/upload/v1764656853/yoga_sxpghw.jpg"
+                    amenitiesTitle="Yoga"
+                    amenitiesText="Find balance and relaxation with guided yoga sessions designed for all experience levels."
+                    handleClick={() => hanldeClick("yoga")} />
             </div>
         </div>
     )
