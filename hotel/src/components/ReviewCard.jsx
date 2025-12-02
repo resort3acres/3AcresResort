@@ -5,7 +5,11 @@ const ReviewCard = ({ name, description, role, img }) => {
         <div className=" mt-8 relative max-w-md mx-auto p-8 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
 
             <div className=' w-full flex justify-center absolute -top-8 '>
-                <img src={img} alt="" className='w-32 h-32 rounded-full object-cover' />
+                {
+                    img && (
+                        <img src={img} alt="" className='w-32 h-32 rounded-full object-cover' />
+                    )
+                }
             </div>
             {/* Quote icon */}
             <div className="mb-6 mt-2 text-blue-100">
