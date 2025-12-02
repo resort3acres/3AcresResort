@@ -16,7 +16,7 @@ const ReviewPage = () => {
         },
         {
             name: "Mame Khan",
-            description: "I have always chosen 3 Acres Resort to celebrate my family's special occasions. The resort consistently delivers exceptional hospitality, with a team that is attentive and genuinely caring. Their food is consistently of the highest quality, making every event memorable and enjoyable.",
+            description: "My visit to 3 Acres Resort was wonderful. I was welcomed with such warmth that it instantly set a positive tone for my stay. The staff were incredibly polite and attentive. The food was delicious, rich in flavor, and truly memorable. Thank you to the team for a delightful experience.",
             role: "Artist",
             img: "https://res.cloudinary.com/dynfbapnz/image/upload/v1764667523/mame_khan_hvespt.jpg"
         },
