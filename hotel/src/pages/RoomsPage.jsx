@@ -158,7 +158,7 @@ const RoomsPage = () => {
             <div className="relative w-full h-[50vh] sm:h-[70vh] md:h-[80vh] lg:h-screen overflow-hidden">
 
                 <img
-                    src="https://res.cloudinary.com/dynfbapnz/image/upload/v1764656851/roomsPage_ali1bb.webp"
+                    src="https://res.cloudinary.com/dynfbapnz/image/upload/v1767531816/dovenew_1_gm4tzv.jpg"
                     alt="Rooms Page"
                     className="w-full h-full object-cover"
                 />
@@ -204,7 +204,7 @@ const RoomsPage = () => {
                         li5={room.li5}
                         li6={room.li6}
                         extra={room.extra}
-                   
+
                     />
                 ))}
             </div>
