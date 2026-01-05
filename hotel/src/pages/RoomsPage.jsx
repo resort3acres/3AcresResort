@@ -98,6 +98,25 @@ const RoomsPage = () => {
             // price3: "17,100",
             // price4: "20,500"
         },
+           {
+            keyName: "kingfisher",
+            roomType: "Kingfisher ",
+            img: "https://res.cloudinary.com/dynfbapnz/image/upload/v1767602601/DSC_0159_ibzdfm.jpg",
+            space: "120 sq.ft (11 sq.mt)",
+            GardenView: "Garden View",
+            bed: "1 King Bed(s)",
+            li1: "Iron/Ironing Board",
+            li2: "Bathroom",
+            li3: "Mineral Water - additional charge",
+            li4: "Air Conditioning",
+            li5: "Closet",
+            li6: "Telephone",
+            extra: "Private Bathroom",
+            // price1: "10,000",
+            // price2: "13,500",
+            // price3: "17,100",
+            // price4: "20,500"
+        },
         {
             keyName: "dove",
             roomType: "Dove",

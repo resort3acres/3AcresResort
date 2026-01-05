@@ -46,6 +46,16 @@ const roomData = {
             "https://res.cloudinary.com/dynfbapnz/image/upload/v1764656850/monal4_ggahzl.jpg",
         ]
     },
+    kingfisher: {
+        name: "Kingfisher",
+        images: [
+            "https://res.cloudinary.com/dynfbapnz/image/upload/v1767602601/DSC_0159_ibzdfm.jpg",
+            "https://res.cloudinary.com/dynfbapnz/image/upload/v1767602599/DSC_0168_ij0crg.jpg",
+            "https://res.cloudinary.com/dynfbapnz/image/upload/v1767602602/DSC_0156_nzftnl.jpg",
+            "https://res.cloudinary.com/dynfbapnz/image/upload/v1767602599/DSC_0166_fj9xmc.jpg",
+            "https://res.cloudinary.com/dynfbapnz/image/upload/v1767602599/DSC_0153_nedmtp.jpg",
+        ]
+    },
     dove: {
         name: "Dove",
         images: [
@@ -53,7 +63,7 @@ const roomData = {
             "https://res.cloudinary.com/dynfbapnz/image/upload/v1764656855/DOVE3_r7vtat.jpg",
             "https://res.cloudinary.com/dynfbapnz/image/upload/v1764656855/DOVE1_muqc6u.jpg",
             "https://res.cloudinary.com/dynfbapnz/image/upload/v1764656854/dove_cc18hr.jpg",
-            
+
         ]
     }
 }
