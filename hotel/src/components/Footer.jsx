@@ -43,9 +43,9 @@ const Footer = () => {
 
         {/* About */}
         <div>
-          <h2 className="text-2xl font-semibold text-gray-700 mb-4">3Acres resort</h2>
+          <h2 className="text-2xl font-semibold text-gray-700 mb-4">3Acresresort</h2>
           <p className="text-sm leading-relaxed">
-            Welcome to <span className="text-gray-700 font-semibold">3Acres resort</span> — where luxury meets comfort.
+            Welcome to <span className="text-gray-700 font-semibold">3Acresresort</span> — where luxury meets comfort.
             Experience the royal essence of hospitality with modern amenities and timeless elegance.
           </p>
         </div>
@@ -153,7 +153,7 @@ const Footer = () => {
 
       {/* Bottom */}
       <div className="border-t border-gray-700 mt-10 pt-4 text-center text-sm text-gray-700">
-        © {new Date().getFullYear()} <span className="text-gray-700 font-semibold">3AcreIn</span>. All Rights Reserved.
+        © {new Date().getFullYear()} <span className="text-gray-700 font-semibold">3Acresresort</span>. All Rights Reserved.
       </div>
     </footer>
   );
