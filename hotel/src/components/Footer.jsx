@@ -6,39 +6,6 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="bg-[#e7dfd8] text-gray-700 pt-16 pb-6 px-6 md:px-16">
-
-      <div>
-        {/* <h1
-          className="text-2xl md:text-3xl font-semibold"
-          style={{ fontFamily: "Times New Roman, serif" }}
-        >
-          Subscribe To Receive Exclusive <br className="hidden md:block" /> Offers And News
-        </h1> */}
-
-        <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between w-full text-lg">
-
-          {/* Left paragraph */}
-          {/* <p className="text-sm md:text-base max-w-lg">
-            Subscribe to receive exclusive offers and the latest news from 3Acres resort.
-          </p> */}
-
-          {/* Right email section */}
-          {/* <div className="flex flex-col sm:flex-row items-center gap-4 w-full md:w-auto">
-
-            <input
-              type="email"
-              className="rounded-full border border-gray-700 text-black w-full sm:w-auto px-4 py-2"
-              placeholder="Enter your Email"
-            />
-
-            <button className="flex bg-[#e7dfd8] border border-gray-700 hover:bg-[#fc8b0a] transition rounded-full px-6 py-2 text-lg items-center justify-center w-full sm:w-auto">
-              Subscribe <IoIosArrowRoundForward size={32} />
-            </button>
-          </div> */}
-        </div>
-      </div>
-      {/* <hr className="w-full h-1 mb-2 roundex-full text-gray-700" /> */}
-
       <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
 
         {/* About */}
@@ -127,11 +94,6 @@ const Footer = () => {
             </li>
           </ul>
 
-          {/* <div className="flex gap-4 mt-4 text-lg">
-            <a href="#" className="hover:text-[#fc8b0a] transition"><FaFacebookF /></a>
-            <a href="https://www.instagram.com/3acre.s?igsh=YTczOGcyemR3eDR1" target="_blank" className="hover:text-[#fc8b0a] transition"><FaInstagram /></a>
-            <a href="#" className="hover:text-[#fc8b0a] transition"><FaTwitter /></a>
-          </div> */}
         </div>
 
         {/* Map */}
