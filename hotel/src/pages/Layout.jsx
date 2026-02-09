@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar'
 import { Outlet, useLocation } from 'react-router-dom'
 import Footer from '../components/Footer'
 import ScrollToTop from '../components/ScrollToTop'
+import PageTracker from '../components/PageTracker'
 
 const Layout = () => {
 
@@ -12,6 +13,7 @@ const Layout = () => {
 
     return (
         <div className='min-h-screen flex flex-col '>
+            <PageTracker/>
             <ScrollToTop/>
             <Navbar />
             <main >

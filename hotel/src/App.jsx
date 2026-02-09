@@ -10,6 +10,7 @@ import Facilities from './pages/Facilities'
 import AnimitiesDetails from './pages/AnimitiesDetails'
 import AppSeo from './components/AppSeo'
 
+
 const appRouter = createBrowserRouter([
   {
     path: '/',
