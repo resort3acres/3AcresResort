@@ -4,11 +4,13 @@ import ReactGA from "react-ga4";
 
 const PageTracker = () => {
   const location = useLocation();
-// this help in tacking page
+
   useEffect(() => {
     ReactGA.send({
       hitType: "pageview",
-      page: location.pathname + location.search,
+      page_path: location.pathname + location.search,
+      page_title: document.title,
+      page_location: window.location.href,
     });
   }, [location]);
 
