@@ -22,7 +22,7 @@ if (!metaKeywords) {
   metaKeywords.name = 'keywords';
   document.head.appendChild(metaKeywords);
 }
-metaKeywords.content = "3 Acres Resort, luxury resort, hotel, family events, best resort in dehradun biggest resort"; // Add more keywords separated by commas
+metaKeywords.content = "3 Acres Resort, luxury resort, hotel, family events, best resort in dehradun biggest resort, 3acreresort.com"; // Add more keywords separated by commas
 
 // Author
 let metaAuthor = document.querySelector('meta[name="author"]');
