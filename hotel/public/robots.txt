@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://3acresresort.com/sitemap.xml
+Sitemap: https://3acreresort.com/sitemap.xml
