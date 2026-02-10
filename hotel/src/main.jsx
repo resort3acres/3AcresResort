@@ -10,7 +10,6 @@ ReactGA.initialize("G-X1Z5D2LKWT", {
     debug_mode: true, // 👈 VERY IMPORTANT
   },
 });
-// ReactGA.initialize("G-X1Z5D2LKWT");
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
