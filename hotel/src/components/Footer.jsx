@@ -115,7 +115,7 @@ const Footer = () => {
 
       {/* Bottom */}
       <div className="border-t border-gray-700 mt-10 pt-4 text-center text-sm text-gray-700">
-        © {new Date().getFullYear()} <span className="text-gray-700 font-semibold">3Acresresort</span>. All Rights Reserved.
+        © {new Date().getFullYear()} <span className="text-gray-700 font-semibold">3Acresresort</span>. <span className="text-gray-700">All Rights Reserved.</span> |  Powered by <a href="https://www.velqo.co.in" target="_blank" className="text-[#fc8b0a] hover:text-[#fc8b0a]/80">VELQO</a>
       </div>
     </footer>
   );
